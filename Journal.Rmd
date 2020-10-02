@@ -45,7 +45,7 @@ So far this is just a blog where you can write in plain text and serve your writ
 
 So, let's say you are learning how to make a histogram in R. For example, maybe you want to sample 100 numbers from a normal distribution with mean = 0, and standard deviation =1, and then you want to plot a histogram. You can do this right here by using an r code block, like this:
 
-```{r}
+```{r histogram}
 samples <- rnorm(100, mean=0, sd=1)
 hist(samples)
 ```
